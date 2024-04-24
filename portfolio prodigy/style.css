@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+.port{
+    height:100vmin;
+    width:100%;
+    background-image: url("nm.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    height: 65px;
+    width: 100%;
+    background:transparent;
+    /* background-color: aliceblue; */
+    color:rgb(242, 244, 247);
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+a{
+    text-decoration: none;
+    color: rgb(242, 244, 247);
+    font-size: 1.25rem;
+   
+}
+.nav a:hover{
+  color: #00abf0;
+  transition: .3s;
+}
+.div{
+    padding:100px 80px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.div h1,p{
+    color: rgb(242, 244, 247);
+    font-weight: 700;
+    padding: 20px 20px;
+}
+.div h3{
+    color: #00abf0;
+    font-weight: 700;
+    padding: 0px 20px;
+    font-size: 36px;
+}
+.div h1{
+    font-size: 56px;
+}
+.div button{
+      background-color: #00abf0;
+      padding:15px 15px;
+      width:10%;
+      border-radius:7px ;
+       border: none;
+       font-size: 1.1rem;
+       font-weight: 700;
+}
+.btn{
+    padding-left: 20px;
+    gap:4px;
+}
+button:hover{
+    transition: .3s ;
+    background-color: #081b29;
+    color: #00abf0;
+    border:2px solid #00abf0;
+}
+footer{
+    padding-left:90px;
+    display: flex;
+    gap: 8px;
+}
+.fo,.d,.f,.r,.j{
+    color:#00abf0;
+    font-size: .5rem;
+    border-radius: 50%;
+    border: 2px solid #00abf0;
+    padding: 15px 17px;
+    gap:4px;
+}
+footer a{
+color: #00abf0;
+}
+.fo:hover{
+background-color: #00abf0;
+transition: .3s;
+}
+.d:hover {
+    background-color: #00abf0;
+    transition: .3s;
+}
+.f:hover {
+    background-color: #00abf0;
+    transition: .3s;
+}
+.r:hover {
+    background-color: #00abf0;
+    transition: .3s;
+}
+.j:hover {
+    background-color: #00abf0;
+    transition: .3s;
+}
+.img{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 500px;
+    height:100%;
+    background: transparent;
+    transition: 3s;
+    /* border: 2px solid red; */
+}
+.img:hover{
+    background-color:#081b29;
+    opacity: .8;
+}
